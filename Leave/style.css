@@ -22,3 +22,15 @@ body{
     z-index: 1;
     -webkit-animation: falling 5s 0s infinite;
 }
+
+#leaves i: :nth-of-type(2n){
+    webkit-animation: falling2 5s 0s infinite;
+}
+
+#leaves i: :nth-of-type(2n){
+    webkit-animation: falling2 5s 0s infinite;
+}
+
+#leaves i: :nth-of-type(3n){
+    webkit-animation: falling2 5s 0s infinite;
+}
