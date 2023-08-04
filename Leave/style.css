@@ -1,0 +1,10 @@
+body{
+    background: #222;
+}
+
+#leaves{
+    position: relative;
+    top: -50px;
+    width: 100%;
+    text-align: right;
+}
