@@ -96,3 +96,6 @@ body{
 #leaves i:nth-of-type(n) { opacity: .7;}
 #leaves i:nth-of-type(3n+1) { opacity: .5;}
 #leaves i:nth-of-type(3n+2) { opacity: .3;}
+
+#leaves i:nth-of-type(n) { transform: rotate(180deg);}
+#leaves i:nth-of-type(n) { -webkit-animation-timing-function: ease-in-out;}
