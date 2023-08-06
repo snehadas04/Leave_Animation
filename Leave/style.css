@@ -88,3 +88,7 @@ body{
 #leaves i:nth-of-type(14n) { -webkit-animation-delay: 4.7s;}
 #leaves i:nth-of-type(15n) { -webkit-animation-delay: 3s;}
 #leaves i:nth-of-type(16n) { -webkit-animation-delay: 4.8s;}
+
+#leaves i:nth-of-type(n) { background: linear-gradient(to bottom right, #309900, #005600);}
+#leaves i:nth-of-type(2n+2) { background: linear-gradient(to bottom right, #5e9900, #2b5600);}
+#leaves i:nth-of-type(4n+1) { background: linear-gradient(to bottom right, #990, #564500);}
