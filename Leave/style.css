@@ -99,3 +99,13 @@ body{
 
 #leaves i:nth-of-type(n) { transform: rotate(180deg);}
 #leaves i:nth-of-type(n) { -webkit-animation-timing-function: ease-in-out;}
+
+@-webkit-keyframes falling{
+    0%{
+        -webkit-transform: translate3d(300,0,0) rotate(0deg);
+    }
+    100%{
+        -webkit-transform: translate3d(350px,700px,0) rotate(90deg);
+        opacity: 0;
+    }
+}
