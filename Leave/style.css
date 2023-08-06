@@ -24,10 +24,6 @@ body{
 }
 
 #leaves i:nth-of-type(2n){
-    -webkit-animation: falling 5s 0s infinite;
-}
-
-#leaves i:nth-of-type(2n){
     -webkit-animation: falling2 5s 0s infinite;
 }
 
@@ -36,5 +32,14 @@ body{
 }
 
 #leaves i:before{
-
+    position: absolute;
+    content: '';
+    top: 117px;
+    right: 9px;
+    height: 27px;
+    width: 32px;
+    transform: rotate(49deg);
+    border-radius: 0% 15% 15% 0%;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
 }
