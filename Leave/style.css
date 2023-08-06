@@ -78,3 +78,7 @@ body{
 #leaves i:nth-of-type(4n) { -webkit-animation-delay: 4.4s;}
 #leaves i:nth-of-type(5n) { -webkit-animation-delay: 5s;}
 #leaves i:nth-of-type(6n) { -webkit-animation-delay: 3.5s;}
+#leaves i:nth-of-type(7n) { -webkit-animation-delay: 5.9s;}
+#leaves i:nth-of-type(8n) { -webkit-animation-delay: 2.6s;}
+#leaves i:nth-of-type(9n) { -webkit-animation-delay: 3.3s;}
+#leaves i:nth-of-type(10n) { -webkit-animation-delay: 1.5s;}
