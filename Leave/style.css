@@ -42,4 +42,14 @@ body{
     border-radius: 0% 15% 15% 0%;
     border-top: 1px solid #222;
     border-bottom: 1px solid #222;
+    border-left: 0px solid #222;
+    border-right: 1px solid #222;
+    background: linear-gradient(to right, rgba(0,100,0,1), #005600);
+    z-index: 1;
+}
+
+#leaves i:after{
+    content: '';
+    height: 125px;
+    width: 10px;
 }
