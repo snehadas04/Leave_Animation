@@ -59,3 +59,8 @@ body{
     left: 85px;
     border-radius: 50%;
 }
+
+#leaves i:nth-of-type(n){ height: 23px; width: 30px; }
+#leaves i:nth-of-type(n):before{ width: 7px; height: 5px; top:17px; right: 1px;}
+#leaves i:nth-of-type(n):after{ width: 2px; height: 17px; left: 12px; top: 1px;}
+#leaves i:nth-of-type(2n+1){ height: ;}
